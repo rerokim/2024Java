@@ -1,0 +1,8 @@
+package sec03.exam01;
+
+public class e01Car {
+	//������
+	e01Car(String color, int cc) {
+	}
+}
+

@@ -1,0 +1,14 @@
+package sec06.exam02.mycompany;
+
+import sec06.exam02.hankook.*;
+import sec06.exam02.kumho.*;
+import sec06.exam02.hyndai.e02HyundaiEngine;
+
+public class e02MycompanyCar {
+	//필드 
+	e02HyundaiEngine engine = new e02HyundaiEngine();
+	e02HankookSnowTire tire1 = new e02HankookSnowTire();
+	e02KumhoBigWidthTire tire2 = new e02KumhoBigWidthTire();
+	sec06.exam02.hankook.e02HankookTire tire3 = new sec06.exam02.hankook.e02HankookTire();
+	sec06.exam02.kumho.e02KumhoTire tire4 = new sec06.exam02.kumho.e02KumhoTire();
+}

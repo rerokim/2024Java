@@ -1,0 +1,11 @@
+package sec05.exam01;
+
+public class e01CarExample {
+	public static void main(String[] args) {
+		e01Car myCar = new e01Car("������");
+		e01Car yourCar = new e01Car("����");
+		
+		myCar.run();
+		yourCar.run();
+	}
+}

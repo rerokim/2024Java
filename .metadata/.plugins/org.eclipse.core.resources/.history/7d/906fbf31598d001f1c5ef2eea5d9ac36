@@ -1,0 +1,12 @@
+package sec05.exam04;
+
+public class Singleton {
+	private static e04Singleton singleton = new e04Singleton();
+	
+	private Singleton() {}
+	
+	static e04Singleton getInstance() {
+		return singleton;
+	}
+}
+

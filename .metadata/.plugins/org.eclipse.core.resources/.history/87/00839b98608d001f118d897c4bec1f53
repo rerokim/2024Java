@@ -1,0 +1,7 @@
+# 이클립스 빌드 폴더
+bin/
+
+# 이클립스 프로젝트 메타데이터
+.classpath
+.project
+.settings/

@@ -1,0 +1,14 @@
+package sec06.exam02.mycompany;
+
+import sec06.exam02.hankook.*;
+import sec06.exam02.kumho.*;
+import sec06.exam02.hyndai.Engine;
+
+public class Car {
+	//�ʵ�
+	Engine engine = new Engine();
+	e02HANBOKSnowTire tire1 = new e02HANBOKSnowTire();
+	BigWidthTire tire2 = new BigWidthTire();
+	sec06.exam02.hankook.e02HANBOCKTire tire3 = new sec06.exam02.hankook.e02HANBOCKTire();
+	sec06.exam02.kumho.Tire tire4 = new sec06.exam02.kumho.Tire();
+}

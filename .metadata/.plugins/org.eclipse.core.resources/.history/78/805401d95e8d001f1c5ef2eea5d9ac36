@@ -1,0 +1,8 @@
+package sec06.exam04.package1;
+
+public class e04B {
+	//�ʵ�
+	e04A a1 = new e04A(true);
+	e04A a2 = new e04A(1);
+	//A a3 = new A("���ڿ�");
+}

@@ -1,0 +1,30 @@
+package sec03.exam03;
+
+public class e03Car {
+	//�ʵ�
+	String company = "�����ڵ���";
+	String model;
+	String color;
+	int maxSpeed;
+	
+	//������
+	e03Car() {
+	}
+	
+	e03Car(String model) {
+		this.model = model;
+	}
+	
+	e03Car(String model, String color) {
+		this.model = model;
+		this.color = color;
+	}
+	
+	e03Car(String model, String color, int maxSpeed) {
+		this.model = model;
+		this.color = color;
+		this.maxSpeed = maxSpeed;
+	}
+}
+
+

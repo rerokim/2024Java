@@ -1,0 +1,19 @@
+package sec05.exam04;
+
+public class SingletonExample {
+	public static void main(String[] args) {
+		/*
+		Singleton obj1 = new Singleton();  //������ ����
+		Singleton obj2 = new Singleton();  //������ ����
+		*/
+		
+		e04Singleton obj1 = e04Singleton.getInstance();
+		e04Singleton obj2 = e04Singleton.getInstance();
+		
+		if(obj1 == obj2) {
+			System.out.println("���� Singleton ��ü �Դϴ�.");
+		} else {
+			System.out.println("�ٸ� Singleton ��ü �Դϴ�.");
+		}
+	}
+}

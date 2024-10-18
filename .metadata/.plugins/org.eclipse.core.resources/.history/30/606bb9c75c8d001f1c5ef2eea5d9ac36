@@ -1,0 +1,14 @@
+package sec06.exam04.package1;
+
+public class A {
+	//�ʵ�
+	e04A a1 = new e04A(true);
+	e04A a2 = new e04A(1);
+	e04A a3 = new e04A("���ڿ�");
+
+	//������	
+	public A(boolean b) {}
+	A(int b) {}
+	private A(String s) {} 
+}
+

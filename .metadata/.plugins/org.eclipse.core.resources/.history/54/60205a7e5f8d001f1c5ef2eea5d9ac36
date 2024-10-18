@@ -1,0 +1,22 @@
+package ksj.sec06.exam06;
+
+public class e06CarExample {
+	public static void main(String[] args) {
+		e06Car myCar = new e06Car();
+		
+		//잘못된 속도 변경 
+		myCar.setSpeed(-50);
+		
+		System.out.println("현재속도 : " + myCar.getSpeed());
+		
+		//올바른 속도 변경 
+		myCar.setSpeed(60);
+		
+		//멈춤 
+		if(!myCar.isStop()) {
+			myCar.setStop(true);
+		}
+		
+		System.out.println("현재속도 : " + myCar.getSpeed());
+	}
+}

@@ -1,0 +1,28 @@
+package sec03.exam04;
+
+public class e04Car {
+	//�ʵ�
+	String company = "�����ڵ���";
+	String model;
+	String color;
+	int maxSpeed;
+	
+	//������
+	e04Car() {
+	}
+	
+	e04Car(String model) {
+		this(model, null, 0);
+	}
+	
+	e04Car(String model, String color) {
+		this(model, color, 0);
+	}
+	
+	e04Car(String model, String color, int maxSpeed) {
+		this.model = model;
+		this.color = color;
+		this.maxSpeed = maxSpeed;
+	}
+}
+
